@@ -1,0 +1,92 @@
+body{
+    background-color: #cecec3;
+}
+
+#conteudo{
+    width: 400px;
+    color: #cecec3;
+    margin: 0px auto;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    background-color:white;
+    border-radius: 5px;
+}
+
+header{
+    text-align: center;
+    background-color:#3a51b3;
+    padding: 20px;
+    color: white;
+}
+
+form{
+    margin: 0 20px;
+}
+
+.nome1, .nome2, .genero, .idade, .email, .nova_senha, .nova_senha2{
+    margin-top: 10px;
+    display:inline-block;
+    
+}
+
+.genero label{
+    float:left;
+}
+
+.sub-genero{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.sub-genero span{
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    display:block;
+    border: none;
+    margin-top: 5px;
+    border-bottom: solid 1px #cecec3; 
+    color: #9c9c94;   
+}
+
+input[type="text"], [type="password"]{
+    width: 150px;
+}
+
+.nome1, .genero, .email, .nova_senha{
+    float: left;
+}
+
+.nome2, .idade, .nova_senha2{
+    float:right;
+}
+
+.clean{
+    clear:both;
+}
+
+.email input{
+    width: 350px;
+}
+
+input[type="submit"]{
+    width: 350px;
+    margin-top: 15px;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.b1{
+    background-color: #cecec3;
+    color: #9c9c94;
+    border: none;
+    padding: 10px;
+}
+
+.b2{
+    background-color: #3a51b3;
+    color: white;
+    border: none;
+    padding: 10px;
+}
