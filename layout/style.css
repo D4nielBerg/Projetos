@@ -1,0 +1,40 @@
+header{
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    border: 1px solid red;
+}
+
+#meio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 560px;
+}
+.laterais{
+    border: 1px solid green;
+    text-align: center;
+    width: 20%;
+    box-sizing: border-box;
+
+}
+
+#centro{
+    border: 1px solid blue;
+    text-align: center;
+    width: 58%;
+    box-sizing: border-box;  
+    
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    border: 1px solid red;
+}
